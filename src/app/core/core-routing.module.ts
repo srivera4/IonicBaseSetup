@@ -17,7 +17,7 @@ const routes: Routes = [
   {
     path: 'admin',
     canActivate: [AuthGuardService],
-    loadChildren: '../admin/admin.module#AdminModule'
+    loadChildren: '../pages/admin/admin.module#AdminPageModule'
   },
   // {
   //   path: 'rental',
